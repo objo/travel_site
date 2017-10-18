@@ -1,0 +1,55 @@
+ul.menu {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+ul.menu li a {
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 20px;
+  float: left;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+ul.menu li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+div.text-content {
+  float: left;
+  width: 40%;
+}
+
+div.link-collection {
+  float: left;
+  width: 40%;
+}
+
+div.clearfix {
+  clear: both;
+}
+
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.internal {
+  color: green;
+}
+
+#first_word {
+  font-weight: bold;
+  font-size: 48px;
+}
